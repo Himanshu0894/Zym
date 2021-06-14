@@ -1,0 +1,79 @@
+
+.left{
+    position: absolute;
+    /* border: 2px solid red; */
+    left: 60px;
+    top: 20px;
+}
+.left img{
+    width: 110px;
+    filter: invert(100%);
+}
+.left div{
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border:2px solid green */
+    
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(12, 11, 11);
+}
+.container{
+    border: 2px solid white;
+    margin: 206px 80px;
+    padding: 75px;
+    width: 53%;
+    border-radius: 20px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 404px;
+    padding: 1px;
+    border:2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+}
